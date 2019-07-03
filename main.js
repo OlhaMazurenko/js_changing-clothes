@@ -1,4 +1,4 @@
-let initialState = {
+const initialState = {
   clothesItems: ['Apron', 'Belt', 'Cardigan', 'Dress', 'Earrings', 'Fur coat', 'Gloves', 'Hat'],
 	index: null,
 	inputText: null
