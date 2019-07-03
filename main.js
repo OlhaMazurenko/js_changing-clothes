@@ -76,7 +76,7 @@ function render() {
   container.innerHTML = '';
 
   store.getState().clothesItems.forEach(item => {
-    let listItem = document.createElement('li');
+    const listItem = document.createElement('li');
     listItem.textContent = item;
 
     if (store.getState().inputText !== item) {
