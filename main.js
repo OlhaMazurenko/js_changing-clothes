@@ -72,7 +72,7 @@ function getNextState(state, action) {
 const store = Redux.createStore(getNextState, initialState);
 
 function render() {
-  let container = document.querySelector('.clothes');
+  const container = document.querySelector('.clothes');
   container.innerHTML = '';
 
   store.getState().clothesItems.forEach(item => {
