@@ -26,7 +26,7 @@ const removeItem = () => {
 
 const exitFrom = () => {
   return {
-	  type: 'exit_from_input'
+      type: 'exit_from_input'
   }
 };
 
